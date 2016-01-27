@@ -15,12 +15,12 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
     audioinfo.cpp \
-    renderarea.cpp \
-    inputtest.cpp
+    audioinputanalyzer.cpp \
+    mainwindow.cpp
 
 HEADERS  += \
     audioinfo.h \
-    renderarea.h \
-    inputtest.h
+    audioinputanalyzer.h \
+    mainwindow.h
 
 FORMS    += mainwindow.ui
